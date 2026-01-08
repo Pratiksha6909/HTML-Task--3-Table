@@ -1,2 +1,2 @@
-# HTML-Task--3-Table
+# HTML-Table-Task3
 HTML Table Task
