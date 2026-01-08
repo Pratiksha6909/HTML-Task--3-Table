@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3 - Tables</title>
+
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #cce5ff;
+        }
+
+        tbody {
+            background-color: #f8f9fa;
+        }
+
+        tfoot {
+            background-color: #d4edda;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Student Marks Table</h2>
+
+<table>
+    <caption>Student Academic Performance</caption>
+
+    <thead>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Marks</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Pratiksha</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Aditi</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Riya</td>
+            <td>90</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="2">Average Marks</td>
+            <td>84</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
